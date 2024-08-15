@@ -1,0 +1,142 @@
+.mm-black {
+    color: #000000;
+}
+
+.mm-dark_blue {
+    color: #0000AA;
+}
+
+.mm-dark_green {
+    color: #00AA00;
+}
+
+.mm-dark_aqua {
+    color: #00AAAA;
+}
+
+.mm-dark_red {
+    color: #AA0000;
+}
+
+.mm-dark_purple {
+    color: #AA00AA;
+}
+
+.mm-gold {
+    color: #FFAA00;
+}
+
+.mm-gray {
+    color: #AAAAAA;
+}
+
+.mm-dark_gray {
+    color: #555555;
+}
+
+.mm-blue {
+    color: #5555FF;
+}
+
+.mm-green {
+    color: #55FF55;
+}
+
+.mm-aqua {
+    color: #55FFFF;
+}
+
+.mm-red {
+    color: #FF5555;
+}
+
+.mm-light_purple {
+    color: #FF55FF;
+}
+
+.mm-yellow {
+    color: #FFFF55;
+}
+
+.mm-white {
+    color: #FFFFFF;
+}
+
+.mm-minecoin_gold {
+    color: #DDD605;
+}
+
+.mm-material_quartz {
+    color: #E3D4D1;
+}
+
+.mm-material_iron {
+    color: #CECACA;
+}
+
+.mm-material_netherite {
+    color: #443A3B;
+}
+
+.mm-material_redstone {
+    color: #971607;
+}
+
+.mm-material_copper {
+    color: #B4684D;
+}
+
+.mm-material_gold {
+    color: #DEB12D;
+}
+
+.mm-material_emerald {
+    color: #47A036;
+}
+
+.mm-material_diamond {
+    color: #2CBAA8;
+}
+
+.mm-material_lapis {
+    color: #21497B;
+}
+
+.mm-material_amethyst {
+    color: #9A5CC6;
+}
+
+.mm-obfuscated {
+    animation: obfuscate 1s infinite;
+    font-family: 'Lucida Console', monospace;
+}
+
+.mm-bold {
+    font-weight: bold;
+}
+
+.mm-strikethrough {
+    text-decoration: line-through;
+}
+
+.mm-underlined {
+    text-decoration: underline;
+}
+
+.mm-italic {
+    font-style: italic;
+}
+
+@keyframes obfuscate {
+    0% { content: "\u2588"; } /* Full block */
+    10% { content: "\u2591"; } /* Light shade */
+    20% { content: "\u2592"; } /* Medium shade */
+    30% { content: "\u2593"; } /* Dark shade */
+    40% { content: "\u2588"; } /* Full block */
+    50% { content: "\u2591"; } /* Light shade */
+    60% { content: "\u2592"; } /* Medium shade */
+    70% { content: "\u2593"; } /* Dark shade */
+    80% { content: "\u2588"; } /* Full block */
+    90% { content: "\u2591"; } /* Light shade */
+    100% { content: "\u2592"; } /* Medium shade */
+}
